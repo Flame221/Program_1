@@ -8,7 +8,9 @@ public class Main {public static void main(String [] args) {
     double d = 1321.23145;
     char ch = 'C';
     int d1 = (int) d;
-    String str = "Your number is ";
-    System.out.print(str + (b + d1));
+    byte v = (byte) l;
+     String str = "Your number is ";
+    System.out.print(str + (b + d1)+ " and "+ (l - i/200) + v + "." );
+    System.out.print(" Your variant is " + ch);
 }
 }
