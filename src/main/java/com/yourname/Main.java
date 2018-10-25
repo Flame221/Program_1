@@ -14,10 +14,11 @@ public class Main {
                 break;
             default:
                 System.out.println("Сегодня курсов нет");
+                return;
         }
         int time = s.nextInt();
 
-        if (time == 18 || time == 19 || time == 20) {
+        if (time >= 18 && time <= 20) {
             System.out.println("Сейчас идут курсы");
         } else {
             System.out.println("Сейчас курсы не идут");
